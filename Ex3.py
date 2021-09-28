@@ -8,7 +8,7 @@ total = 0
 while cont <= 10:
     cont += 1
     nasc = int(input('Digite o ano que você nasceu: '))
-    MaiorIdade = (nasc - 2021) *-1
+    MaiorIdade = 2021 - nasc
     if MaiorIdade >= 18:
         total += 1
 print ('{} São maiores de idade'.format (total))
